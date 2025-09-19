@@ -1,3 +1,5 @@
+import math
+
 class Avanzadas:
     def __init__(self):
         self.base = 0
@@ -11,3 +13,8 @@ class Avanzadas:
     def elevarPotencia(self):
         self.resultado = self.base ** self.exponente
         print(f"{self.base} elevado a la {self.exponente} es: {self.resultado}")
+
+    def raizCuadrada(self):
+        numero = int(input("Ingrese el número para calcular la raíz cuadrada: "))
+        resultado = math.sqrt(numero)
+        print(f"La raíz cuadrada de {numero} es: {resultado}")
