@@ -1,0 +1,1 @@
+hacer la parte de potencias pero bien
